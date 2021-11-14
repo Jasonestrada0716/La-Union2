@@ -1,0 +1,62 @@
+#page4{
+    background:url(../image/9.jpg) no-repeat center center/cover;
+    text-align: center;
+    height: 1100px;
+}
+#page4 h1{
+    color: rgb(35, 10, 253);
+    font-weight: bold;
+    font-size:45px;;
+    padding: 30px;
+    border: #334756;
+} 
+#page4 .Ma-cho{
+    text-align: left;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: cadetblue;
+    width: 1100px;
+}
+#page4 .Ma-cho img{
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+#page4 .Paraoir{
+    text-align: right;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: cadetblue;
+    width: 1100px;
+    margin-top: 150px;
+}
+#page4 .Paraoir img{
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+#page4 .campwagi{
+    border: none;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: cadetblue;
+    width:1100px; 
+    margin-top: 150px;
+}
+#page4 .campwagi img{
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+header{
+    font-size: 50px;
+}

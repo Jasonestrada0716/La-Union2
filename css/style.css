@@ -1,0 +1,389 @@
+/*global setting*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*global styling*/
+html,
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em; /* 1em = 2inches */
+}
+
+a{
+    color: rgb(223, 15, 15);
+    text-decoration: none;
+}
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+P{
+    margin: 10px;
+}
+
+/*Navigation*/
+#navbar{
+    overflow: auto;
+    color:rgb(248, 240, 242);
+}
+#hero .container img{
+    height: 100px;
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+} 
+#navbar .container input{
+    margin-top: 20px;
+}
+#navbar #search{
+    background:#fff;
+    color: #0e0d0d;
+}
+#navbar a{
+    color: #fff;
+}
+/*removing the bullets in the list*/
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+/*float list items in the left to have horizontally align*/
+#navbar ul li{
+    float: left;
+    padding-left: 20px;
+}
+/*convert anchor link to block elements to apply same padding*/
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+#navbar h1 {
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    float: left;
+    padding: 20px;
+}
+#navbar ul li a:hover{
+    background: #334756;
+    color: #ff4c29;
+}
+#navbar ul li a.active{
+    background: rgba(255,255,255,0.1);
+}
+/* apply the responsive rule*/
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+#hero{
+    background: url(../image/9.jpg)no-repeat center center/cover;
+    height: 800px;
+}
+#hero .hero-content{
+    color: #fff;
+    text-align: center;
+}
+#hero .hero-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+#hero .hero-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#hero .team h1{
+    margin-bottom: 5px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(83, 98, 126);
+    float: left;
+    margin-left: 100px;
+    padding: 20px;
+    text-align: center;
+    font-size: 45px;
+}
+#hero .team p{
+    line-height: 2em;
+    font-size: 15px;
+    background-color: rgb(83, 98, 126);
+    border-style: none;
+    border-radius: 10px;
+    width: 33%;
+    clear: both;
+    overflow: hidden;
+    height: auto;
+}
+.primary-text{
+    color: #120fdf;
+}
+#hero .hero-content h1{
+    color: rgb(214, 211, 29);
+}
+#hero .hero-content p{
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+#hero .history{
+    text-align:left;
+    margin-top: 20px;
+    border: grey solid;
+    border-radius: 20px;
+    width: 600px;
+    margin-left: 20px;
+    background: url(../image/lu.jpg)no-repeat center center/cover;
+    overflow: hidden;
+}
+#hero .history h2{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+#hero .history p{
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-lead{
+    font-size: 50px;
+}
+.btn{
+    display:inline-block;
+    font-size: 18px;
+    color: rgb(230, 211, 211);
+    background: #25c06b;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10em;
+}
+#page2{
+    background:url(../image/9.jpg) no-repeat center center/cover;
+    text-align: center;
+    height: 1000px;
+}
+#page2 img{
+    height: 100px;
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+} 
+#page2 h1{
+    color: blue;
+    font-weight: bold;
+    font-size:45px;;
+    padding: 30px;
+    border: #334756;
+} 
+#page2 .luna{
+    text-align: left;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: cadetblue;
+    width:1100px;
+}
+#page2 .luna img{
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+#page2 .tangadan{
+    text-align: right;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: cadetblue;
+    width: 1100px;
+    margin-top: 150px;
+}
+#page2 .tangadan img{
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+#page2 .gapuz{
+    border: none;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: cadetblue;
+    width:1100px; 
+    margin-top: 150px;
+}
+#page2 .gapuz img{
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+#page3{
+    background:url(../image/9.jpg) no-repeat center center/cover;
+    text-align: center;
+    height: 1200px;
+}
+#page3 img{
+    height: 100px;
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+} 
+#page3 h1{
+    color: rgb(35, 10, 253);
+    font-weight: bold;
+    font-size:45px;;
+    padding: 30px;
+    border: #334756;
+} 
+#page3 .tuddingan{
+    text-align: left;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: cadetblue;
+    width:1100px;
+}
+#page3 .tuddingan img{
+    margin-top: 100px;
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+#page3 .SanJuan{
+    text-align: right;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: cadetblue;
+    width: 1100px;
+    margin-top: 150px;
+}
+#page3 .SanJuan img{
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+#page3 .Immuki{
+    border: none;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: cadetblue;
+    width:1100px; 
+    margin-top: 150px;
+}
+#page3 .Immuki img{
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+#page4{
+    background:url(../image/9.jpg) no-repeat center center/cover;
+    text-align: center;
+    height: 900px;
+}
+#page4 img{
+    height: 100px;
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+} 
+#page4 h1{
+    color: rgb(35, 10, 253);
+    font-weight: bold;
+    font-size:45px;;
+    padding: 30px;
+    border: #334756;
+} 
+#page4 .Ma-cho{
+    text-align: left;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: cadetblue;
+    width: 1100px;
+}
+#page4 .Ma-cho img{
+    margin-top: 100px;
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+#page4 .Paraoir{
+    text-align: right;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: cadetblue;
+    width: 1100px;
+    margin-top: 150px;
+}
+#page4 .Paraoir img{
+    height: 250px;
+    width: 250px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+#page4 .campwagi{
+    border: none;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: cadetblue;
+    width:1100px; 
+    margin-top: 150px;
+}
+#page4 .campwagi img{
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20%;
+}
+#end{
+     background:url(../image/12.png) silver center no-repeat;
+    text-align: center;
+    padding-top: 50px;
+}
+#end h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 50px;
+}
+
+footer{
+    background: #082032;
+    height: 70px;
+    overflow: auto;
+    color: #fff;
+    text-align: center;
+}
